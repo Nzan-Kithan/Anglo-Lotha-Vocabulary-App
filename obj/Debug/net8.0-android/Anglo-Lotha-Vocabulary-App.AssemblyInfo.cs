@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Anglo-Lotha-Vocabulary-App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+f097a99d9cf4317a1ba95752de6a92c184e81039")]
 [assembly: System.Reflection.AssemblyProductAttribute("Anglo-Lotha-Vocabulary-App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Anglo-Lotha-Vocabulary-App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

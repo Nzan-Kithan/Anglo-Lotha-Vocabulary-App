@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:model="clr-namespace:Anglo_Lotha_Vocabulary_App.Models"
+             xmlns:viewmodel="clr-namespace:Anglo_Lotha_Vocabulary_App.ViewModels"
+             x:DataType="viewmodel:SearchResultPageViewModel"
+             x:Class="Anglo_Lotha_Vocabulary_App.Views.SearchResultPage"
+             Title="{Binding Title}">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="Bookmark"
+            IconImageSource="{Binding BookmarkIconURL}"
+            Command="{Binding AddToBookmarkCommand}"/>
+    </ContentPage.ToolbarItems>
+    
+    <ScrollView>
+    
+        <VerticalStackLayout Padding="20,0" Spacing="25">
+
+            <!-- Input Entry -->
+            <Frame BackgroundColor="#EFEFEF" CornerRadius="25" Padding="0" HasShadow="False" Margin="0, 10">
+
+                <Grid>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+
+                    <Frame Grid.Column="0" Padding="20, 0, 0, 0" Margin="0" BackgroundColor="Transparent"  CornerRadius="20" HasShadow="False" BorderColor="Transparent">
+
+                        <Grid>
+
+                            <Entry x:Name="InputEntry" Text="{Binding SearchQuery}" Placeholder="Search" BackgroundColor="Transparent" VerticalOptions="Center" ReturnType="Search" ReturnCommand="{Binding PerformSearchCommand}" />
+                            <ImageButton
+                                Source="clear.png"
+                                Padding="0"
+                                HeightRequest="25"
+                                WidthRequest="25"
+                                Aspect="AspectFit"
+                                VerticalOptions="Center"
+                                HorizontalOptions="End"
+                                Command="{Binding ClearTextCommand}"
+                                IsVisible="{Binding IsClearButtonVisible}" />
+
+                        </Grid>
+
+                    </Frame>
+
+                    <Frame Grid.Column="1" Padding="0" Margin="0" WidthRequest="50" BackgroundColor="Transparent" HasShadow="False" BorderColor="Transparent" >
+
+                        <ImageButton Source="search.png" HeightRequest="50" Aspect="AspectFit" VerticalOptions="Center" Command="{Binding PerformSearchCommand}" />
+
+                    </Frame>
+
+                </Grid>
+
+            </Frame>
+            
+            <!-- Suggestion ListView -->
+            <!-- <ListView x:Name="SuggestionsListView" ItemsSource="{Binding Suggestions}" VerticalOptions="StartAndExpand">       -->
+            <!--     <ListView.ItemTemplate>                                                                                        -->
+            <!--         <DataTemplate x:DataType="model:SuggestionItem">                                                           -->
+            <!--             <ViewCell>                                                                                             -->
+            <!--                 <Label Text="{Binding Word}" />                                                                    -->
+            <!--             </ViewCell>                                                                                            -->
+            <!--         </DataTemplate>                                                                                            -->
+            <!--     </ListView.ItemTemplate>                                                                                       -->
+            <!-- </ListView>                                                                                                        -->
+
+            <!-- Translated Word Label -->
+            <Label x:Name="TranslatedLabel" Text="{Binding TranslatedFrom}" FontSize="Large" TextColor="Black" HorizontalOptions="FillAndExpand" VerticalOptions="Start" />
+            <Label Text="{Binding TranslatedTo}" FontSize="Small" TextColor="#007BFF" HorizontalOptions="FillAndExpand" VerticalOptions="Start" />
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+</ContentPage>

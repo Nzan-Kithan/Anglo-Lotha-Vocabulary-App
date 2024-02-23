@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Anglo-Lotha-Vocabulary-App</name>
+    </assembly>
+    <members>
+        <member name="T:Anglo_Lotha_Vocabulary_App.ViewModels.BaseViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:Anglo_Lotha_Vocabulary_App.ViewModels.BaseViewModel.IsBusy">
+            <inheritdoc cref="F:Anglo_Lotha_Vocabulary_App.ViewModels.BaseViewModel.isBusy"/>
+        </member>
+        <member name="P:Anglo_Lotha_Vocabulary_App.ViewModels.BaseViewModel.Title">
+            <inheritdoc cref="F:Anglo_Lotha_Vocabulary_App.ViewModels.BaseViewModel.title"/>
+        </member>
+        <member name="T:Anglo_Lotha_Vocabulary_App.ViewModels.MainPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Anglo_Lotha_Vocabulary_App.ViewModels.MainPageViewModel.Translate">
+            <inheritdoc cref="F:Anglo_Lotha_Vocabulary_App.ViewModels.MainPageViewModel.translate"/>
+        </member>
+        <member name="P:Anglo_Lotha_Vocabulary_App.ViewModels.MainPageViewModel.Translated">
+            <inheritdoc cref="F:Anglo_Lotha_Vocabulary_App.ViewModels.MainPageViewModel.translated"/>
+        </member>
+        <member name="F:Anglo_Lotha_Vocabulary_App.ViewModels.MainPageViewModel.swapLanguageCommand">
+            <summary>The backing field for <see cref="P:Anglo_Lotha_Vocabulary_App.ViewModels.MainPageViewModel.SwapLanguageCommand"/>.</summary>
+        </member>
+        <member name="P:Anglo_Lotha_Vocabulary_App.ViewModels.MainPageViewModel.SwapLanguageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Anglo_Lotha_Vocabulary_App.ViewModels.MainPageViewModel.SwapLanguage"/>.</summary>
+        </member>
+        <member name="T:Anglo_Lotha_Vocabulary_App.ViewModels.SearchBarFunctions">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Anglo_Lotha_Vocabulary_App.ViewModels.SearchBarFunctions.Translation">
+            <inheritdoc cref="F:Anglo_Lotha_Vocabulary_App.ViewModels.SearchBarFunctions.translation"/>
+        </member>
+        <member name="P:Anglo_Lotha_Vocabulary_App.ViewModels.SearchBarFunctions.SearchQuery">
+            <inheritdoc cref="F:Anglo_Lotha_Vocabulary_App.ViewModels.SearchBarFunctions.searchQuery"/>
+        </member>
+        <member name="P:Anglo_Lotha_Vocabulary_App.ViewModels.SearchBarFunctions.SearchResult">
+            <inheritdoc cref="F:Anglo_Lotha_Vocabulary_App.ViewModels.SearchBarFunctions.searchResult"/>
+        </member>
+        <member name="P:Anglo_Lotha_Vocabulary_App.ViewModels.SearchBarFunctions.CurrentWordIndex">
+            <inheritdoc cref="F:Anglo_Lotha_Vocabulary_App.ViewModels.SearchBarFunctions.currentWordIndex"/>
+        </member>
+        <member name="F:Anglo_Lotha_Vocabulary_App.ViewModels.SearchBarFunctions.clearTextCommand">
+            <summary>The backing field for <see cref="P:Anglo_Lotha_Vocabulary_App.ViewModels.SearchBarFunctions.ClearTextCommand"/>.</summary>
+        </member>
+        <member name="P:Anglo_Lotha_Vocabulary_App.ViewModels.SearchBarFunctions.ClearTextCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Anglo_Lotha_Vocabulary_App.ViewModels.SearchBarFunctions.ClearText"/>.</summary>
+        </member>
+        <member name="F:Anglo_Lotha_Vocabulary_App.ViewModels.SearchBarFunctions.performSearchCommand">
+            <summary>The backing field for <see cref="P:Anglo_Lotha_Vocabulary_App.ViewModels.SearchBarFunctions.PerformSearchCommand"/>.</summary>
+        </member>
+        <member name="P:Anglo_Lotha_Vocabulary_App.ViewModels.SearchBarFunctions.PerformSearchCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Anglo_Lotha_Vocabulary_App.ViewModels.SearchBarFunctions.PerformSearch"/>.</summary>
+        </member>
+        <member name="T:Anglo_Lotha_Vocabulary_App.ViewModels.SearchResultPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Anglo_Lotha_Vocabulary_App.ViewModels.SearchResultPageViewModel.BookmarkIconURL">
+            <inheritdoc cref="F:Anglo_Lotha_Vocabulary_App.ViewModels.SearchResultPageViewModel.bookmarkIconURL"/>
+        </member>
+        <member name="P:Anglo_Lotha_Vocabulary_App.ViewModels.SearchResultPageViewModel.TranslatedFrom">
+            <inheritdoc cref="F:Anglo_Lotha_Vocabulary_App.ViewModels.SearchResultPageViewModel.translatedFrom"/>
+        </member>
+        <member name="P:Anglo_Lotha_Vocabulary_App.ViewModels.SearchResultPageViewModel.TranslatedTo">
+            <inheritdoc cref="F:Anglo_Lotha_Vocabulary_App.ViewModels.SearchResultPageViewModel.translatedTo"/>
+        </member>
+        <member name="F:Anglo_Lotha_Vocabulary_App.ViewModels.SearchResultPageViewModel.addToBookmarkCommand">
+            <summary>The backing field for <see cref="P:Anglo_Lotha_Vocabulary_App.ViewModels.SearchResultPageViewModel.AddToBookmarkCommand"/>.</summary>
+        </member>
+        <member name="P:Anglo_Lotha_Vocabulary_App.ViewModels.SearchResultPageViewModel.AddToBookmarkCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Anglo_Lotha_Vocabulary_App.ViewModels.SearchResultPageViewModel.AddToBookmark"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Translate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Translate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Translated">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Translated" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Translation">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Translation" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SearchQuery">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SearchQuery" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SearchResult">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SearchResult" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CurrentWordIndex">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CurrentWordIndex" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.BookmarkIconURL">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "BookmarkIconURL" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TranslatedFrom">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TranslatedFrom" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TranslatedTo">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TranslatedTo" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsNotBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsNotBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Translate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Translate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Translated">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Translated" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Translation">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Translation" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SearchQuery">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SearchQuery" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsClearButtonVisible">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsClearButtonVisible" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SearchResult">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SearchResult" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CurrentWordIndex">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CurrentWordIndex" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.BookmarkIconURL">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "BookmarkIconURL" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TranslatedFrom">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TranslatedFrom" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TranslatedTo">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TranslatedTo" generated properties.</summary>
+        </member>
+    </members>
+</doc>
